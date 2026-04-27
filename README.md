@@ -1,19 +1,34 @@
-# ⚖️ Nyaay — AI-Powered Legal Assistant Platform
+# ⚖️ Nyaya AI — AI-Powered Legal Assistant Platform
 
-Nyaay is a full-stack AI-powered legal assistant platform that enables users to upload legal documents, search through them intelligently, generate AI-drafted legal documents, and get real-time legal guidance through an advanced RAG-based chat system.
+> **Nyaya AI** is a full-stack, production-grade AI legal assistant platform built for the Indian legal ecosystem. It enables users to upload legal documents, analyze contracts for risks, get real-time legal guidance through an advanced RAG-based chat, and connect with verified lawyers — all powered by cutting-edge AI.
 
 ---
 
-## 🚀 Features
+## 🇮🇳 What Makes Nyaya AI Different
 
-- **RAG-Based Legal AI Chat** — Ask legal questions and get context-aware answers powered by Groq, Voyage AI embeddings, and Cohere reranking.
-- **PDF Document Analysis** — Upload legal PDFs and let the AI extract, analyze, and search through them intelligently.
-- **AI Legal Document Generation** — Generate professional legal drafts (contracts, notices, agreements) using AI.
-- **Hybrid Search** — Combines semantic (vector) search with keyword search for highly relevant legal document retrieval.
-- **Multi-Role Authentication** — JWT-based auth with OTP login, access/refresh token rotation, and role-based verification (User, Lawyer, Admin).
-- **Legal Marketplace** — Browse and connect with verified legal professionals.
-- **Payment Integration** — Razorpay-powered subscription and one-time payment flows.
-- **Async Notifications** — Redis + BullMQ-based background worker for email and SMS notifications.
+Unlike generic legal chatbots, **Nyaya AI is built specifically for Indian law**:
+
+| Unique Feature | Description |
+|---|---|
+| 🏛️ **Indian Law Focus** | Deep understanding of IPC, BNS (Bharatiya Nyaya Sanhita), and the Indian Constitution |
+| 📄 **PDF Case Analysis** | Upload court judgements or legal documents and get AI-powered summaries and insights |
+| ⚠️ **Risk Detection in Contracts** | AI scans contracts and highlights risky or unfair clauses before you sign |
+| 👨‍⚖️ **Lawyer vs User Dashboard** | Separate role-based dashboards for regular users and verified legal professionals |
+| 🎙️ **Voice-Based Legal Assistant** *(Optional)* | Ask legal questions using your voice for a hands-free experience |
+
+> 💡 These features are what separate **Nyaya AI** from generic clones and make it placement-ready.
+
+---
+
+## 🚀 Core Features
+
+- **RAG-Based Legal AI Chat** — Context-aware legal answers powered by Groq, Voyage AI embeddings, and Cohere reranking
+- **Hybrid Search** — Combines semantic (vector) and keyword search for highly relevant legal document retrieval
+- **AI Legal Document Generation** — Generate professional legal drafts (contracts, notices, agreements) using AI
+- **Multi-Role Authentication** — JWT-based auth with OTP login, access/refresh token rotation, and role-based verification
+- **Legal Marketplace** — Browse and connect with verified legal professionals
+- **Payment Integration** — Razorpay-powered subscription and one-time payment flows
+- **Async Notifications** — Redis + BullMQ-based background worker for email and SMS notifications
 
 ---
 
@@ -36,7 +51,7 @@ Nyaay is a full-stack AI-powered legal assistant platform that enables users to 
 ## 📁 Project Structure
 
 ```
-Nyaay/
+Nyaya/
 ├── backend/
 │   ├── prisma/            # Database schema
 │   ├── src/
