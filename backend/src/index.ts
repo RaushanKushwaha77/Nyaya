@@ -9,6 +9,7 @@ import documentRoutes from './routes/documents';
 import paymentRoutes from './routes/payment';
 import generateRoutes from './routes/generate';
 import intelligenceRoutes from './routes/intelligence';
+import contractRoutes from './routes/contracts';
 
 // Initialize Background Workers
 import './workers/notifications';
@@ -36,6 +37,7 @@ app.use('/api/generate', generateRoutes);
 app.use('/api/intelligence', intelligenceRoutes);
 app.use('/api/notifications', notificationRoutes);
 app.use('/api/marketplace', marketplaceRoutes);
+app.use('/api/contracts', contractRoutes);
 
 app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
